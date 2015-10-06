@@ -34,6 +34,15 @@ class HistoryViewController: UIViewController, UITableViewDataSource {
             detailTextLabel.textColor = UIColor.whiteColor()
         }
         
+        switch title {
+        case "Win!":
+            cell.backgroundColor = UIColor(red: 75/255.0, green: 129/255.0, blue: 153/255.0, alpha: 0.9)
+        case "Lose!":
+            cell.backgroundColor = UIColor(red: 158/255.0, green: 18/255.0, blue: 48/255.0, alpha: 0.9)
+        default:
+            cell.backgroundColor = UIColor.grayColor()
+        }
+        
         return cell
     }
     
