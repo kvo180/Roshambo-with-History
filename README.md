@@ -1,2 +1,1 @@
-RockPaperScissors
-=================
+A simple rock paper scissors app that includes a table view that keeps track of the gameplay history. This app was built on top of Udacity's version of the Roshambo app as a challenge exercise on UITableViews as a part of Udacity's UIKit Fundamentals course. 
